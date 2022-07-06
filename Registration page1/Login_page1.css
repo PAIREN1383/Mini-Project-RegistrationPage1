@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(0deg, rgba(2,0,36,1) 3%, rgb(26, 181, 88) 100%, rgb(32, 255, 2) 100%);
+    background-attachment: fixed;
+}
+
+.form {
+    display: flex;
+    max-width: 700px;
+    height: 370px;
+    background-color: rgb(114, 220, 171);
+    border: 2px solid rgb(248, 248, 248);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 70px auto;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.register-img {
+    flex-grow: 1.3;
+    border-radius: 20px;
+    max-width: 350px;
+}
+
+.rows {
+    display: flex;
+    flex-grow: 0.5;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 5px;
+}
+
+.lab {
+    font-size: 18px;
+    padding: 1px;
+    margin-top: 18px;
+}
+
+.inp {
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 2.5px;
+}
+
+.RegisterBtn {
+    font-size: 18.5px;
+    background-color: greenyellow;
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 50%;
+    min-width: 80px;
+    padding: 5px;
+    margin: 25px auto 0 auto;
+}
+
+.RegisterBtn:hover {
+    background-color:rgb(89, 130, 27) ;
+}
+
+@media only screen and (max-width:630px) {
+    .register-img {
+        display: none;
+    }
+    .form {
+        justify-content: center;
+    }
+}
